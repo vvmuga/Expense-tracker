@@ -6,7 +6,6 @@ router.get("/test", (req, res) => {
   res.send("✅ Expense routes working");
 });
 
-
 // GET all expenses
 router.get("/", async (req, res) => {
   try {
